@@ -1,0 +1,237 @@
+@media screen and (min-width:400px)  {
+    
+
+
+body{
+    border:0;
+    margin:0;
+    padding:0;
+    
+    
+}
+ul{
+    list-style-type: none;
+}
+.navbar{
+    display:flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    background-color:#ECE5C7;
+    justify-content:space-around;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.menu{
+    color:black;
+    text-decoration: none;
+}
+
+.top-container{
+    position:relative;
+    height:90vh;
+    width:100%;
+    background-image: url("./Workspace_Background.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.welcome{
+    color:antiquewhite;
+    font-size: 170px;
+    font-family: 'Great Vibes', cursive;
+    width: 40%;
+    text-align:center;
+    position:absolute;
+    top:10%;
+    left: 30%;
+    right:30%;
+    bottom: 10%;
+}
+.second-container{
+    display: flex;
+    position:relative;
+    width:100%;
+    height:600px;
+    background-color:#F9F5F6;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+
+
+.mypic{
+    
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 500px;
+    width : 45%;  
+}
+#profilepic{
+    height: 400px;
+    width: 60%;
+}
+.intro{
+    
+    height: 500px;
+    width: 55%;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    padding:0 20px;    
+}
+.name{
+    font-size: 60px;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top:40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.gettoknowme{
+    font-size: 30px;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.introline{
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.third-container{
+    display:flex;
+    position:relative;
+    width:100%;
+    overflow-x: hidden;
+    overflow-y: hidden;   
+}
+.ai_image{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 500px;
+    width:50%;
+    padding-top: 50px; 
+    background-color: #ECE5C7;  
+}
+.ai_description{
+    background-color: #ECE5C7;
+    padding-top: 50px;
+    height: 500px;
+    width:60%;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#ai-image-id{
+    height: 80%;
+    width:60%;    
+}
+.title3div{
+    text-align: center;
+    font-size: 30px;
+    background-color: #ECE5C7;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding:40px 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.projectname{
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.projectdescrip{
+    
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 0;
+}
+
+.fourth-container{
+    display:flex;
+    position:relative;
+    width:100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.analysis_image{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 500px;
+    width:50%;
+    padding-top: 50px; 
+    text-align: center;
+    background-color: #F9F5F6;
+}
+#analysis-image-id{
+    height: 80%;
+    width:60%;
+    align-content: center;
+    align-items:center;
+}
+.bdsales_description{
+    background-color: #F9F5F6;
+    padding-top: 50px;
+    height: 500px;
+    width:60%;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+.last-container{
+    height: 250px;
+    width:100%;
+    background-color:675D50 ;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.contactme{
+    margin:0 0 0 20px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-size:30px;
+    font-family: 'Nunito Sans', sans-serif;    
+}
+.sociallist{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 10px;
+}
+.social_handle{
+    height:30px;
+    width:30px;    
+}
+.icon_list{
+    display:flex;
+    justify-content:space-around;
+}
+.logopic{
+    margin:10px 50px;
+    height:50%;
+}
+}
